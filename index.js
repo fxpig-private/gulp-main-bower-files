@@ -19,7 +19,7 @@ function getBowerFolder(base) {
             return config.directory;
         }
     }
-    return 'bower_components/';
+    return '/bower_components/';
 }
 
 module.exports = function (filter, opts, callback) {
